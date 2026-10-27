@@ -5,20 +5,12 @@ build-backend = "hatchling.build"
 [project]
 name = "cot-control-inspect"
 version = "0.1.0"
-description = "An Inspect AI port of the CoT-Control QA evaluation (work in progress)."
-readme = "README.md"
+description = "Placeholder for a CoT-Control QA port to Inspect AI"
 requires-python = ">=3.11"
-license = "MIT"
-dependencies = [
-    "inspect_ai>=0.3",
-    "datasets>=3.0",
-]
+dependencies = ["inspect_ai"]
 
 [project.optional-dependencies]
-dev = ["pytest>=8"]
+dev = ["pytest"]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/cot_control"]
-
-[tool.pytest.ini_options]
-testpaths = ["tests"]
+packages = ["cot_control"]
