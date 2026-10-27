@@ -12,4 +12,12 @@ This repository covers **only the QA portion** of [CoTControl](https://github.co
 - [ ] Implement QA scoring and controllability metrics
 - [ ] Write tests and usage instructions
 
-See [LICENSE](LICENSE) for attribution.
+## Attribution
+
+This project independently implements the QA evaluation methodology from [CoTControl](https://github.com/YuehHanChen/CoTControl) using Inspect AI.
+
+The control prompts will be taken from the original repository (MIT License). All other evaluation code will be implemented independently.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE). Third-party datasets remain subject to their own licenses.
