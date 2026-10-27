@@ -1,5 +1,12 @@
 MIT License
 
+Based on CoTControl:
+https://github.com/YuehHanChen/CoTControl
+
+Original project:
+Copyright (c) 2025 Yueh-Han Chen
+
+Modifications and original contributions in cot-control-inspect:
 Copyright (c) 2026 cot-control-inspect contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
