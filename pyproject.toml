@@ -3,9 +3,9 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "cot-control-inspect"
+name = "cot-control-qa-inspect"
 version = "0.1.0"
-description = "Placeholder for a CoT-Control QA port to Inspect AI"
+description = "QA-only CoTControl port to Inspect AI (placeholder)"
 requires-python = ">=3.11"
 dependencies = ["inspect_ai"]
 
@@ -13,4 +13,4 @@ dependencies = ["inspect_ai"]
 dev = ["pytest"]
 
 [tool.hatch.build.targets.wheel]
-packages = ["cot_control"]
+packages = ["cot_control_qa"]
